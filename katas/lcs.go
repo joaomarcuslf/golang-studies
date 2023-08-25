@@ -18,3 +18,5 @@ func LCS(s1, s2 string) string {
 
 	return l2
 }
+
+// Reference: https://www.codewars.com/kata/52756e5ad454534f220001ef

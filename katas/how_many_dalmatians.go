@@ -22,3 +22,5 @@ func HowManyDalmatians(number int) string {
 
 	return dogs[2]
 }
+
+// Reference: https://www.codewars.com/kata/56f6919a6b88de18ff000b36

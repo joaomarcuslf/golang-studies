@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -79,8 +78,4 @@ func DecodeMorse(morseCode string) string {
 	return strings.TrimSpace(strings.Join(decoded, ""))
 }
 
-func main() {
-	fmt.Println(DecodeMorse(".... . -.--   .--- ..- -.. .") == "HEY JUDE")
-	fmt.Println(DecodeMorse("   .... . -.--   .--- ..- -.. .") == "HEY JUDE")
-	fmt.Println(DecodeMorse("...−−−...") == "SOS")
-}
+// Reference: https://www.codewars.com/kata/54b724efac3d5402db00065e
